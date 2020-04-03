@@ -48,7 +48,6 @@ function may be incorrect
   NSString *_password; \
   NSString *_path; \
   NSNumber *_port; \
-  NSString *_query; \
   NSArray  *_queryItems; \
   NSString *_scheme; \
   NSString *_user; \
@@ -2283,7 +2282,6 @@ static NSUInteger	urlAlign;
   RELEASE(internal->_password);
   RELEASE(internal->_path);
   RELEASE(internal->_port);
-  RELEASE(internal->_query);
   RELEASE(internal->_queryItems);
   RELEASE(internal->_scheme);
   RELEASE(internal->_user);
